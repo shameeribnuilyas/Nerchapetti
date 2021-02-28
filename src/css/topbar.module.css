@@ -1,0 +1,24 @@
+.appHeader {
+    background-color:black;
+    color:white;
+    max-height:180px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}  
+
+nav > div {
+    margin: 15px;
+    font-size: 2rem;
+}
+
+.login {
+    position: fixed;
+    right:8px;
+}

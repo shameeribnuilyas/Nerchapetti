@@ -1,0 +1,11 @@
+form {
+    margin-top: 150px;
+    text-align: center;
+}
+.searchBox {
+    border: 1px solid black;
+    width: 60%;
+    color:black;
+    padding: 10px;
+    font-size: 1.2rem;
+}
