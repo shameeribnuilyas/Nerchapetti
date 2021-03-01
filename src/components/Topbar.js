@@ -8,11 +8,11 @@ const TopBar = () => {
     <header className={classes.appHeader}>
     <nav>
     <div className="header">
+        <Link exact to='/'className={classes.link}>Login</Link>
         <Link exact to='/' className={classes.link}>Home</Link>
         <Link exact to='/about' className={classes.link}>About Us</Link>
         <Link exact to='/donate' className={classes.link}>Donate</Link>
-        <Link exact to='/'className={classes.login}>Login</Link>
-      </div>
+    </div>
      </nav>
    </header>
    </div>

@@ -10,7 +10,9 @@ const Contact = () => {
             <h2>Get in Touch</h2>
             <FooterNavigation/>
             <hr></hr>
-            <h3>Copyright © 2021, made by Nerchapetti. All Rights Reserved.</h3>
+            <div className={classes.copyright}>
+                <h3>Copyright © 2021, made by Nerchapetti. All Rights Reserved.</h3>
+            </div>    
         </div>
         </section>
     );
