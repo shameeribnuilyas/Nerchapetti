@@ -3,7 +3,9 @@ import classes from '../css/terms.module.css';
 
 const Terms = () => {
     return(
-        <div></div>
+        <div className={classes.terms}>
+            <h1>Terms and Conditions</h1>
+        </div>
     );
 }
 

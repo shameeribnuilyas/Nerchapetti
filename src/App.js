@@ -1,19 +1,27 @@
-import TopBar from './components/topbar';
-import Logo from './components/logo';
-import SearchBox from './components/searchBox';
-import About from './components/about';
-import Contact from './components/contact';
-import Donate from './components/donate'
+import TopBar from './components/Topbar';
+import Logo from './components/Logo';
+import About from './components/About';
+import Contact from './components/Contact';
+import Donate from './components/Donate';
+import Privacy from './components/Privacy';
+import Terms from './components/Terms';
+import Policies from './components/Policies';
+
+import { Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-        <TopBar/>
-        <Logo/>
-        <SearchBox/>
-        <About/>
-        <Donate/>
-        <Contact/>
+      <TopBar/>
+      <Switch>
+        <Route exact path='/' component={Logo}/>
+        <Route exact path='/about' component={About}/>
+        <Route exact path='/donate' component={Donate}/>
+        <Route exact path='/privacyPolicy' component={Privacy} />
+        <Route exact path='/termsAndConditions' component={Terms} />
+        <Route exact path='/cancellationAndRefundPolicy' component={Policies} />
+      </Switch>
+      <Contact/> 
     </div>
   );
 }
