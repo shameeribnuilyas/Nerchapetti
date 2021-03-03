@@ -4,5 +4,15 @@ h1 {
 }
 
 .donate{
-    margin: 10px 100px 0px 100px;
+    margin: 0px;
+}
+button
+{
+    height: 30px;
+    align-items: center;
+    width: 40px;
+}
+button[type=submit]
+{
+   width: 70px;
 }
