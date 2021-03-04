@@ -1,0 +1,45 @@
+h1 {
+  color: black;
+  font-size: 2rem;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  background-color: #292e29;
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button {
+  background-color: #292e29;
+  font-size: large;
+  width: 100px;
+  color: white;
+  height: inherit;
+}
+button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+section {
+  background-color: rgb(235, 223, 208);
+  box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: inherit;
+  margin: auto;
+  width: 50%;
+}
