@@ -17,15 +17,15 @@ const SignUp = () => {
                        
                         <tr>
                             <td>Email:</td>
-                            <td><input  type="text" name="Email" placeholder="Enter your Email" /></td>
+                            <td><input  type="text" name="Email" placeholder="Enter your Email" required /></td>
                         </tr>
                         <tr>
                             <td>Mobile:</td>
-                            <td><input  type="text" name="Mobile" placeholder="Enter your Mobile" /></td>
+                            <td><input  type="text" name="Mobile" placeholder="Enter your Mobile" required /></td>
                         </tr>
                         <tr>
                             <td>Password:</td>
-                            <td><input  type="password" name="Password" placeholder="Enter your Password" /></td>
+                            <td><input  type="password" name="Password" placeholder="Enter your Password" required /></td>
                         </tr>
                     </table>
                 
